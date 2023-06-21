@@ -2,8 +2,8 @@
 stable diffusion api proxy
 
 # 直接运行
-编译好的文件在bin目录下
-运行 bin下的text2image.exe
+编译好的文件在v1目录下
+运行 v2下的text2image.exe
 text2image.exe会代理访问 http://127.0.0.1:7860/sdapi/v1/txt2img
 
 格式：
@@ -13,7 +13,7 @@ http://127.0.0.1:5002/image/text2image/{提示词}
 http://127.0.0.1:5002/image/text2image/1girl
 
 ## 配置文件
-修改bin目录下的appsettings.json
+修改v1目录下的appsettings.json
 
 "ApplicationConfiguration": {
 	"width": 768, //生成图片的宽

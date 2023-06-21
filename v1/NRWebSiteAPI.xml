@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>text2image</name>
+    </assembly>
+    <members>
+        <member name="P:NRWebSite.Models.ApplicationConfiguration.width">
+            <summary>
+            文件上传路径
+            </summary>
+        </member>
+    </members>
+</doc>
